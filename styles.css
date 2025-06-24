@@ -19,7 +19,7 @@ body {
     background-color: #1a1a1a;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 
-                inset 0 0 15px rgba(32, 196, 86, 0.1);
+                inset 0 0 15px rgba(232, 98, 177, 0.1);
     padding: 30px;
     max-width: 600px;
     width: 100%;
@@ -35,13 +35,13 @@ body {
     left: 0;
     right: 0;
     height: 3px;
-    background: linear-gradient(90deg, #00c853, #2979ff, #00c853);
+    background: linear-gradient(90deg, #e83e8c, #9c27b0, #e83e8c);
     z-index: 2;
 }
 
 h1 {
-    color: #7bf1a8; /* Verde claro para el título principal */
-    text-shadow: 0 0 5px rgba(123, 241, 168, 0.3);
+    color: #f8a7d3; /* Rosa claro para el título principal */
+    text-shadow: 0 0 5px rgba(232, 62, 140, 0.3);
 }
 
 p {
@@ -50,7 +50,7 @@ p {
 
 .input-group label {
     font-weight: 600;
-    color: #7bf1a8; /* Verde claro para las etiquetas */
+    color: #f8a7d3; /* Rosa claro para las etiquetas */
     font-size: 0.85rem;
     letter-spacing: 0.5px;
     display: flex;
@@ -72,20 +72,20 @@ p {
 
 .input-group input:focus {
     outline: none;
-    border-color: #00c853;
-    box-shadow: 0 0 0 2px rgba(0, 200, 83, 0.25), inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-color: #e83e8c;
+    box-shadow: 0 0 0 2px rgba(232, 62, 140, 0.25), inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .btn {
-    background-color: #00c853;
-    color: #121212;
+    background-color: #e83e8c;
+    color: #fff;
     padding: 12px 25px;
     border-radius: 10px;
     font-weight: 700;
     font-family: 'Roboto Mono', monospace;
     letter-spacing: 0.5px;
     transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(0, 200, 83, 0.3);
+    box-shadow: 0 5px 15px rgba(232, 62, 140, 0.3);
     position: relative;
     overflow: hidden;
     border: none;
@@ -103,7 +103,7 @@ p {
 }
 
 .btn:hover {
-    background-color: #00b34a;
+    background-color: #d81b60;
     transform: translateY(-2px);
 }
 
@@ -113,7 +113,7 @@ p {
 
 .btn:active {
     transform: translateY(0);
-    box-shadow: 0 3px 10px rgba(0, 200, 83, 0.4);
+    box-shadow: 0 3px 10px rgba(232, 62, 140, 0.4);
 }
 
 .results-box {
@@ -122,7 +122,7 @@ p {
     padding: 20px;
     margin-top: 25px;
     border: 1px solid #333;
-    box-shadow: inset 0 0 10px rgba(32, 196, 86, 0.05);
+    box-shadow: inset 0 0 10px rgba(232, 62, 140, 0.05);
     position: relative;
 }
 
@@ -133,11 +133,11 @@ p {
     left: 10%;
     right: 10%;
     height: 1px;
-    background: linear-gradient(90deg, transparent, #00c853, transparent);
+    background: linear-gradient(90deg, transparent, #e83e8c, transparent);
 }
 
 .results-box h3 {
-    color: #7bf1a8;
+    color: #f8a7d3;
     font-family: 'Roboto Mono', monospace;
     letter-spacing: 1px;
     margin-bottom: 15px;
@@ -152,7 +152,7 @@ p {
     padding: 8px;
     background-color: rgba(30, 30, 30, 0.6);
     border-radius: 6px;
-    border-left: 3px solid #00c853;
+    border-left: 3px solid #e83e8c;
 }
 
 .result-item strong {
@@ -162,7 +162,7 @@ p {
 }
 
 .result-item span {
-    color: #00e676;
+    color: #f48fb1;
     font-weight: 500;
     font-family: 'Roboto Mono', monospace;
     letter-spacing: 0.5px;
@@ -183,9 +183,9 @@ p {
 }
 
 .message.success {
-    background-color: rgba(0, 200, 83, 0.1);
-    color: #7bf1a8;
-    border-left-color: #00c853;
+    background-color: rgba(232, 62, 140, 0.1);
+    color: #f8a7d3;
+    border-left-color: #e83e8c;
 }
 
 .message.warning {
@@ -220,11 +220,11 @@ input[type=number] {
     padding: 15px;
     background-color: rgba(30, 30, 30, 0.8);
     border-radius: 8px;
-    border-left: 3px solid #00c853;
+    border-left: 3px solid #e83e8c;
 }
 
 #iterationDetails h4 {
-    color: #7bf1a8;
+    color: #f8a7d3;
     font-family: 'Roboto Mono', monospace;
     letter-spacing: 0.5px;
     margin-bottom: 10px;
@@ -247,7 +247,7 @@ input[type=number] {
 
 #iterationList li:last-child {
     border-bottom: none;
-    color: #00e676;
+    color: #f48fb1;
 }
 
 /* Estilizar la barra de desplazamiento para la lista de iteraciones */
@@ -261,10 +261,10 @@ input[type=number] {
 }
 
 #iterationList::-webkit-scrollbar-thumb {
-    background: #00c853;
+    background: #e83e8c;
     border-radius: 3px;
 }
 
 #iterationList::-webkit-scrollbar-thumb:hover {
-    background: #00e676;
+    background: #f48fb1;
 }
