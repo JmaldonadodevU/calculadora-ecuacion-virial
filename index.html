@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+<head>    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Volumen y Factor de Compresibilidad</title>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -17,28 +16,26 @@
             Ingrese los parámetros para calcular el volumen de un gas real usando la ecuación virial
             y el factor de compresibilidad (Z).
             El cálculo se detendrá cuando el volumen del gas real haya convergido.
-        </p>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4 mb-8">
+        </p>        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4 mb-8">
             <div class="input-group">
                 <label for="R_val" class="block text-sm mb-1">Constante de Gas :</label>
-                <input type="number" id="R_val" value="0.08206" step="0.00001">
+                <input type="number" id="R_val" step="0.00001">
             </div>
             <div class="input-group">
                 <label for="T_val" class="block text-sm mb-1">Temperatura :</label>
-                <input type="number" id="T_val" value="300">
+                <input type="number" id="T_val">
             </div>
             <div class="input-group">
                 <label for="P_val" class="block text-sm mb-1">Presión :</label>
-                <input type="number" id="P_val" value="10">
+                <input type="number" id="P_val">
             </div>
             <div class="input-group">
                 <label for="B_val" class="block text-sm mb-1">Coeficiente Virial (B):</label>
-                <input type="number" id="B_val" value="-0.02" step="0.001">
+                <input type="number" id="B_val" step="0.001">
             </div>
             <div class="input-group col-span-1 md:col-span-2">
                 <label for="C_val" class="block text-sm mb-1">Coeficiente Virial (C):</label>
-                <input type="number" id="C_val" value="0.001" step="0.0001">
+                <input type="number" id="C_val" step="0.0001">
             </div>
         </div>
 
