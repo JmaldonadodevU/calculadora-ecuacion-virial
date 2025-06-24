@@ -21,11 +21,11 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4 mb-8">
             <div class="input-group">
-                <label for="R_val" class="block text-sm mb-1">Constante de Gas (R):</label>
+                <label for="R_val" class="block text-sm mb-1">Constante de Gas :</label>
                 <input type="number" id="R_val" value="0.08206" step="0.00001">
             </div>
             <div class="input-group">
-                <label for="T_val" class="block text-sm mb-1">Temperatura (T en K):</label>
+                <label for="T_val" class="block text-sm mb-1">Temperatura :</label>
                 <input type="number" id="T_val" value="300">
             </div>
             <div class="input-group">
@@ -33,11 +33,11 @@
                 <input type="number" id="P_val" value="10">
             </div>
             <div class="input-group">
-                <label for="B_val" class="block text-sm mb-1">Coeficiente Virial (B):</label>
+                <label for="B_val" class="block text-sm mb-1">Coeficiente Virial :</label>
                 <input type="number" id="B_val" value="-0.02" step="0.001">
             </div>
             <div class="input-group col-span-1 md:col-span-2">
-                <label for="C_val" class="block text-sm mb-1">Coeficiente Virial (C):</label>
+                <label for="C_val" class="block text-sm mb-1">Coeficiente Virial :</label>
                 <input type="number" id="C_val" value="0.001" step="0.0001">
             </div>
         </div>
@@ -52,15 +52,15 @@
         <div id="results" class="results-box hidden">
             <h3 class="text-xl font-bold mb-4">Resultados del Cálculo:</h3>
             <div class="result-item">
-                <strong>Volumen Gas Ideal ($V_{ideal}$):</strong>
+                <strong>Volumen Gas Ideal :</strong>
                 <span id="vIdealOutput"></span>
             </div>
             <div class="result-item">
-                <strong>Volumen Gas Real ($V_{real}$):</strong>
+                <strong>Volumen Gas Real :</strong>
                 <span id="vRealOutput"></span>
             </div>
             <div class="result-item">
-                <strong>Factor de Compresibilidad (Z):</strong>
+                <strong>Factor de Compresibilidad :</strong>
                 <span id="zFactorOutput"></span>
             </div>
             <div class="result-item">
